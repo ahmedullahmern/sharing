@@ -1,0 +1,38 @@
+.container {
+    padding:  40px 100px;
+    // margin:100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: red;
+    
+    .header-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        
+        .imges {
+            img {
+            }
+        }
+        
+        .list-header {
+            display: flex;
+            width: 100%;
+            ul{
+                list-style: none    ;
+                display: flex;
+                width: 50%;
+                li{
+                    width: 100%;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+}
